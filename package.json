@@ -13,7 +13,6 @@
     "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.1",
     "gulp-stylus": "^2.6.0",
-    "mithril": "^1.0.1",
     "require-uncached": "^1.0.3"
   }
 }
