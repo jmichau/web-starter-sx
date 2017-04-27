@@ -1,0 +1,19 @@
+{
+  "name": "static",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "node_modules/.bin/gulp dev",
+    "build": "node_modules/.bin/gulp build"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "browser-sync": "^2.18.8",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-stylus": "^2.6.0",
+    "mithril": "^1.0.1",
+    "require-uncached": "^1.0.3"
+  }
+}
