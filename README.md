@@ -1,5 +1,5 @@
-# web-starter
-web starter kit is example different approach to provides transpiling Stylus and JSX
+# web-starter-sx
+web-starter-sx is example different approach to provides transpiling Stylus and JSX
 ## Directory Layout
 ```shell
 ├── dist/                       # Folder for compiled output
@@ -19,8 +19,21 @@ web starter kit is example different approach to provides transpiling Stylus and
 - When save the `src/app/**/*.styl` file, gulp transpiling .styl files whose was included in `main.styl` entry point file.
 
 ## Usage
+### Install:
+```shell
+git clone github.com/mj420/web-starter-sx
+npm install
+```
 ### shell commands:
 ```shell
 gulp dev                # Compiles the app and opens it in a browser with "live reload"
 gulp build              # Just compiles the app
+```
+
+you can simply add vendor js files by adding it at the begining of the `concat.json` file:
+```
+[
+    "../../node_modules/path/to/framework.file",
+    "main.jsx"
+]
 ```
