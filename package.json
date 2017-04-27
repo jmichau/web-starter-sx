@@ -1,5 +1,5 @@
 {
-  "name": "static",
+  "name": "web-starter-sx",
   "version": "0.0.1",
   "scripts": {
     "dev": "node_modules/.bin/gulp dev",
