@@ -1,5 +1,5 @@
 # web-starter-sx
-web-starter-sx is example different approach to provides transpiling Stylus and JSX
+web-starter-sx is example different approach to provides transpiling Stylus and JSX using Gulp 4
 ## Directory Layout
 ```shell
 ├── dist/                       # Folder for compiled output
@@ -26,8 +26,8 @@ npm install
 ```
 ### shell commands:
 ```shell
-gulp dev                # Compiles the app and opens it in a browser with "live reload"
-gulp build              # Just compiles the app
+npm run dev             # Compiles the app and opens it in a browser with "live reload"
+npm run build           # Just compiles the app
 ```
 
 you can simply add vendor js files by adding it at the begining of the `concat.json` file:
