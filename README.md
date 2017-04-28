@@ -31,7 +31,7 @@ npm run build           # Just compiles the app
 ```
 
 you can simply add vendor js files by adding it at the begining of the `concat.json` file:
-```
+```json
 [
     "../../node_modules/path/to/framework.file",
     "main.jsx"
