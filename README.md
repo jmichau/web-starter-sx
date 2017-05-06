@@ -5,7 +5,7 @@ web-starter-sx is example different approach to provides transpiling Stylus and 
 ├── dist/                       # Folder for compiled output
 ├── src/                        # Application source code
 │   ├── app/                    # JSX source code
-│   │   └── concat.json         # *.jsx concatenate sequence
+│   │   └── concat.json         # *.jsx | *.js concatenate sequence
 │   ├── style/                  # Stylus source code
 │   │   └── main.styl           # Stylus entry point
 │   └── index.html              # index.html include js, and css files
