@@ -37,3 +37,4 @@ you can simply add vendor js files by adding it at the begining of the `concat.j
     "main.jsx"
 ]
 ```
+but make sure that you `npm install` your vendor library before include it.
