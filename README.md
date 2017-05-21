@@ -21,7 +21,7 @@ web-starter-sx is example different approach to provides transpiling Stylus and 
 ## Usage
 ### Install:
 ```shell
-git clone https://github.com/jmichau/web-starter-sx
+git clone https://github.com/mikejav/web-starter-sx
 npm install
 ```
 ### shell commands:
