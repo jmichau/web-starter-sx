@@ -1,5 +1,5 @@
 # web-starter-sx
-web-starter-sx is example different approach to provides transpiling Stylus and JSX using Gulp 4
+web-starter-sx is example of different approach of provide transpiling Stylus and JSX using Gulp 4
 ## Directory Layout
 ```shell
 ├── dist/                       # Folder for compiled output
